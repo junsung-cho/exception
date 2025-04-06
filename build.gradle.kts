@@ -5,9 +5,11 @@ plugins {
 }
 
 group = "dev.junsung"
-version = "1.0.0"
+version = "0.0.2"
 
 java {
+    withJavadocJar()
+    withSourcesJar()
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
     }
