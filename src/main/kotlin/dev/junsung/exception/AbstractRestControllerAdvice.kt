@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler
 
 abstract class AbstractRestControllerAdvice {
     @ExceptionHandler(RestException::class)
-    fun handleBadRequest(
+    fun handle(
         exception: RestException,
         request: HttpServletRequest,
     ): ResponseEntity<ErrorResponse> = ResponseEntity.status(exception.status).body(exception.toResponse(request))
