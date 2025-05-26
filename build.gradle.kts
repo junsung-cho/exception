@@ -20,7 +20,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.apache.tomcat.embed:tomcat-embed-core:11.0.5")
+    implementation("org.apache.tomcat.embed:tomcat-embed-core:11.0.7")
     implementation("org.springframework:spring-web:6.2.5")
 }
 
