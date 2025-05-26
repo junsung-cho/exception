@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.junsung:exception:0.0.3")
+    implementation("dev.junsung:exception:0.0.4")
 }
 ```
 
@@ -26,7 +26,7 @@ dependencies {
 <dependency>
     <groupId>dev.junsung</groupId>
     <artifactId>exception</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
 </dependency>
 ```
 
