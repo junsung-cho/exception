@@ -1,3 +1,10 @@
+## 0.0.4 (2025-05-26)
+
+### Fix
+
+- **.gitattributes**: add .gitattributes
+- **.editorconfig**: update .editorconfig
+
 ## 0.0.3 (2025-04-08)
 
 ### Fix
